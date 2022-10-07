@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="./css/common.css" />
+</head>
+<body>
+    <header>
+        <h1 class="portfolio-t">portfolio of dust</h1>
+    </header>
+    <main>
+        <img src="/img/bg_1.jpg" id="main_bg" class="main_bg" alt=""/>
+        <form id="user_start" class="user_start">
+            <label for="user_id" style="background: white;
+            display: block;
+            display: block;
+            margin: 0 auto 1rem;
+            padding: 0.8rem;
+            border: 0;
+            border-radius: 10px;
+            font-size: 14px;
+        ">아이디
+                <input type="text" style="    display: block;
+                width: 100%;
+                border: 0;
+                margin-top: 10px;
+                font-size: 1rem;
+                " placeholder="아이디 값은 dust입니다!" id="user_id" />
+            </label>
+            <label for="user_pw" style="background: white;
+            display: block;
+            display: block;
+            margin: 0 auto 1rem;
+            padding: 0.8rem;
+            border: 0;
+            border-radius: 10px;
+            font-size: 14px;
+        ">비밀번호
+                <input type="password"  style="    display: block;
+                width: 100%;
+                border: 0;
+                margin-top: 10px;
+                font-size: 1rem;
+                " placeholder="비밀번호는 1234!" id="user_pw"/>
+            </label>
+            <input type="submit" value="click!" />
+        </form>
+        <div class="clock">
+            <div id="clock">
+                <p class="day"></p>
+                <p class="time"></p>
+            </div>
+            <div id="hello_user" class="hide welcome"></div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+<script src="./js/index.js"></script>
+<script src="./js/todo.js"></script>
+</html>
